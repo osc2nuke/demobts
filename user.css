@@ -1,0 +1,177 @@
+/* content ITEMS startings */
+#header-container [data-type="language"],
+#header-container [data-type="button"],
+#header-container [data-type="cart"],
+#header-container [data-type="logo"],
+#header-container [data-type="form"],
+#header-container [data-type="formsearch"],
+#header-container [data-type="link"],
+#header-container [data-type="text"]{
+    position: relative;
+    margin: 0px 2px;
+	width: 22px;
+    padding: 0px 4px;
+	color: #000;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+	cursor: pointer;
+    border-radius: 4px;
+}
+/* content ITEMS endings */
+
+
+/* content ELEMENTS startings */
+.alert-template{
+color: #000;
+background-color: #F5F5F5;
+border-color: #000;
+}
+.alert-default{
+color: #3C763D;
+background-color: #F5F5F5;
+border-color: #DDD;
+}
+.alert-dropdown{
+color: #DC57E5;
+background-color: #D9BADB;
+border-color: #DC57E5;
+}
+.label-dropdown {
+    background-color: #DC57E5;
+}
+.label-template {
+    background-color: #000;
+}
+#css-container,
+#header-container,
+#header-storage {
+  cursor: move;
+  }
+
+#header-container .glyphicon{
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px 0px;
+    cursor: pointer;
+}
+#header-container .fa-eye{
+color: #000;
+}
+#header-container .fa-eye-slash{
+color: #D9534F;
+}
+#css-container .fa-trash{
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    padding: 3px 3px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#css-container .fa-level-up{
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    padding: 3px 3px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #FFF;
+
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#css-container .fa-level-down{
+    position: absolute;
+    bottom: 1px;
+    right: 4px;
+    padding: 3px 3px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #FFF;
+
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    cursor: pointer;
+}  
+#header-container .fa-eye-slash,
+#header-container .fa-eye{
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    padding: 3px 3px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #FFF;
+
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    cursor: pointer;
+}  
+#header-storage li .glyphicon{
+    float: right;
+    margin-right: 5px;
+    padding: 3px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#header-storage li .glyphicon-remove{
+ color: #E00000;
+}
+#css-container .label,
+#header-container .label{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px 0px;
+    cursor: pointer;
+}
+#css-container [data-type="default"],	
+#header-container [data-type="column"] {
+    background-color: #FFF;
+	border: 1px solid #DDD;
+}
+#css-container [data-type="default"] {
+    color: #999;
+}
+#css-container [data-type="default"],
+#css-container [data-type="media"],
+#css-container [data-type="template"],
+#header-container [data-type="template"],
+#header-container [data-type="dropdown"],
+#header-container [data-type="nav"],
+#header-container [data-type="row"],
+#header-container [data-type="column"],
+#header-container [data-type="div"],
+#header-container [data-type="container"] {
+    position: relative;
+    margin: 15px 0px;
+    padding: 39px 19px 14px;
+    //background-color: #FFF;
+    //border: 1px solid #DDD;
+    border-radius: 4px;
+}
+
+#header-storage{
+    min-height:100px;
+}
+
+#header-container .popover{
+    min-width:300px;
+    height:auto;
+    cursor: pointer;
+}
+/* content ELEMENTS ending */
